@@ -14,7 +14,9 @@ const generateRandomindex = (min, max) => {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min + 1) + min); // The maximum is inclusive and the minimum is inclusive
 }
-app.use(express.static("src/assest"));
+app.use(express.static("images"));
+app.use('/images', express.static("images"));
+
 app.get('/api/quotes', (req, res) => {
   const randomIndex = generateRandomindex(0, quotes.length)
   console.log(randomIndex)
