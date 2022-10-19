@@ -1,7 +1,7 @@
 const characters = [
   {
     name: "Ted Mosby",
-    imageUrl: "./assest/ted.jpeg",
+    imageUrl: "src/assets/ted.jpeg",
     gender: "Male",
     nickNames: [],
     actor: "Josh Radnor",
