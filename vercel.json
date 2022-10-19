@@ -3,12 +3,24 @@
     {
       "src": "index.js",
       "use": "@vercel/node"
+    },
+    {
+      "src": "images/**",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
       "dest": "index.js"
+    },
+    {
+      "src": "/",
+      "dest": "images/index.html"
+    },
+    {
+      "src": "/(.+)",
+      "dest": "images/$1"
     }
   ]
 }
