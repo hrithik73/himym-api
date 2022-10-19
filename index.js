@@ -1,7 +1,9 @@
 import express from 'express';
 const app = express()
 const port = 3000
-import { quotes } from "./src/quotes.js"
+
+import quotes from "./src/quotes.js"
+import characters from "./src/charaters.js"
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
@@ -18,4 +20,9 @@ app.get('/api/quotes', (req, res) => {
   console.log(randomIndex)
   res.send(quotes[randomIndex])
 })
-const server = app.listen(port, () => console.log("🚀 Server ready at: http://localhost:3000"))
+
+app.get('/api/characters', (req, res) => {
+  res.send(characters)
+})
+
+app.listen(port, () => console.log("🚀 Server ready at: http://localhost:3000"))

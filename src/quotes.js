@@ -1,4 +1,4 @@
-export const quotes = [
+const quotes = [
   {
     quotes: "Whenever I'm sad, I stop being sad and be awesome instead",
     author: "Barney Stinson"
@@ -88,3 +88,5 @@ export const quotes = [
     author: "Ted Mosby"
   },
 ]
+
+export default quotes

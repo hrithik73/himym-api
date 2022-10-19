@@ -1,17 +1,52 @@
-export const Characters = [
+const characters = [
   {
     name: "Ted Mosby",
+    imageUrl: "./assest/ted.jpeg",
+    gender: "Male",
+    nickNames: [],
+    actor: "Josh Radnor",
+    occupation: ""
+  },
+
+  {
+    name: "Barney Stinson",
+    imageUrl: "",
+    gender: "Male",
+    nickNames: [],
+    actor: "",
+    occupation: ""
   },
   {
-    name: "Marshall Eriksen"
+    name: "Robin Scherbatsky",
+    imageUrl: "",
+    gender: "Female",
+    nickNames: [],
+    actor: "Cobie Smulders",
+    occupation: ""
   },
   {
-    name: "Lily Aldrin"
+    name: "Lily Aldrin",
+    imageUrl: "",
+    gender: "Female",
+    nickNames: [],
+    actor: "Alyson Hannigan",
+    occupation: ""
   },
   {
-    name: "Robin Scherbatsky"
+    name: "Marshall Eriksen",
+    imageUrl: "Jason Segel",
+    gender: "Male",
+    nickNames: [],
+    actor: "Male",
+    occupation: ""
   },
   {
-    name: "Barney Stinson"
-  }
+    name: "The Mother (Tracy McConnell)",
+    imageUrl: "",
+    gender: "Female",
+    nickNames: [],
+    actor: "",
+    occupation: ""
+  },
 ]
+export default characters
