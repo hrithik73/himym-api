@@ -1,7 +1,7 @@
 const characters = [
   {
     name: "Ted Mosby",
-    imageUrl: "/images/ted.jpeg",
+    imageUrl: "https://himym-api.vercel.app/images/ted.jpeg",
     gender: "Male",
     nickNames: ["T - Dog", "T - Mose", "Teddy Westside", "Schmosby, Prof.Brosby", "Doctor X",
       "Teddy Bear", "Galactic President Superstar McAwesomeville", "Jed Mosley", "Teddy Boy",
@@ -13,7 +13,7 @@ const characters = [
 
   {
     name: "Barney Stinson",
-    imageUrl: "/images/barney.jpeg",
+    imageUrl: "https://himym-api.vercel.app/images/barney.jpeg",
     gender: "Male",
     nickNames: ["Jack Package", "The Commodore", "Ted Mosby - The Architect", "Barry", "Lorenzo Von Matterhorn", "Barack Obama Jr.", "Neil Armstrong", "Kristof Doppelganger", "Mrs.Stinsfire", "Jack Fantastic", "Arnie Linson", "Barn", "The Barn Door", "The Barnacle", "Barnito Supreme", "Broda", "Jennifer", "Swarley", "Swarles", "Swarhili", "Bob Swarley - man, Swar - lay", "Swarles Barkley", "Swarlos", "Swarlitos", "Swarshmallow", "Keyser Soze", "The President of the United States of America", "B - Dawg", "Stinson - Natti", "Bro - hio", "Diaper Man", "Swarleze Theron", "Barnabus Stinson", "Jim Nacho", "Barney Westside", "Luigi", "B - Nasty"],
     actor: "Neil Patrick Harris",
@@ -21,7 +21,7 @@ const characters = [
   },
   {
     name: "Robin Scherbatsky",
-    imageUrl: "/images/robin.jpeg",
+    imageUrl: "https://himym-api.vercel.app/images/robin.jpeg",
     gender: "Female",
     nickNames: ["Robin Sparkles",
       "Robin Daggers",
@@ -33,7 +33,7 @@ const characters = [
   },
   {
     name: "Lily Aldrin",
-    imageUrl: "/images/lily.jpeg",
+    imageUrl: "https://himym-api.vercel.app/images/lily.jpeg",
     gender: "Female",
     nickNames: [
       "Lilypad", "Justice Aldrin", "Red, Lil", " Chewbacca", "The Belly", "The Slap Bet Commissioner", " Lori", " The Kraken", "Red Head", "Ms. Aldrin", "Lily Stinson", "Mrs. Awesome", "Number One Gunna"
@@ -46,7 +46,7 @@ const characters = [
   },
   {
     name: "Marshall Eriksen",
-    imageUrl: "/images/marshall.jpeg",
+    imageUrl: "https://himym-api.vercel.app/images/marshall.jpeg",
     gender: "Male",
     nickNames: ["Marshmallow", "The Kid", "Funny Butt", "Vanilla Thunder", "Big Fudge", "Papa", "Beercules", "Marsh Madness", "Ghost in the Post", "Sports Guy", "Mr. Awesome", "Judge Fudge", "Fudge Supreme", "Medium Sized Fudge"],
     actor: "Male",
@@ -54,7 +54,7 @@ const characters = [
   },
   {
     name: "The Mother (Tracy McConnell)",
-    imageUrl: "/images/mother.jpeg",
+    imageUrl: "https://himym-api.vercel.app/images/mother.jpeg",
     gender: "Female",
     nickNames: ["T.M", "The Mother"],
     actor: "Cristin Milioti",
