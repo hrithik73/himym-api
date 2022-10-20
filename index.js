@@ -1,6 +1,11 @@
+import path from "path"
 import express from 'express';
 const app = express()
 const port = 3000
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url);
+
+const __dirname = path.dirname(__filename);
 
 import quotes from "./src/quotes.js"
 import characters from "./src/charaters.js"
@@ -15,7 +20,7 @@ const generateRandomindex = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min); // The maximum is inclusive and the minimum is inclusive
 }
 app.use(express.static("images"));
-app.use('/images', express.static("images"));
+app.use('/images', express.static(path.join(__dirname, 'images')));
 
 app.get('/api/quotes', (req, res) => {
   const randomIndex = generateRandomindex(0, quotes.length)
